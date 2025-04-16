@@ -1,5 +1,5 @@
 $(function () {
-  $(".class-gallery-list").slick({
+  $(".q-e-gallery-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -10,13 +10,13 @@ $(function () {
     dots: false,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".class-gallery-list-left",
-    nextArrow: ".class-gallery-list-right",
+    prevArrow: ".q-e-gallery-list-left",
+    nextArrow: ".q-e-gallery-list-right",
   });
 });
 
 $(function () {
-  $(".class-reviews-list").slick({
+  $(".q-e-reviews-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -27,13 +27,13 @@ $(function () {
     dots: true,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".class-reviews-list-left",
-    nextArrow: ".class-reviews-list-right",
+    prevArrow: ".q-e-reviews-list-left",
+    nextArrow: ".q-e-reviews-list-right",
   });
 });
 
 $(function () {
-  $(".class-why-list").slick({
+  $(".q-e-why-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -44,12 +44,12 @@ $(function () {
     dots: true,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".class-why-list-left",
-    nextArrow: ".class-why-list-right",
+    prevArrow: ".q-e-why-list-left",
+    nextArrow: ".q-e-why-list-right",
   });
 });
 $(function () {
-  $(".class-uniqueness-list").slick({
+  $(".q-e-uniqueness-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -60,7 +60,7 @@ $(function () {
     dots: true,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".class-uniqueness-list-left",
-    nextArrow: ".class-uniqueness-list-right",
+    prevArrow: ".q-e-uniqueness-list-left",
+    nextArrow: ".q-e-uniqueness-list-right",
   });
 });
